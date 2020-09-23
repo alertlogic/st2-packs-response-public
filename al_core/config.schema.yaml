@@ -1,0 +1,21 @@
+---
+aws_region:
+  description: "AWS Region where Responder Service is running"
+  type: "string"
+  required: true
+  default: "us-east-1"
+notifications_queue_url:
+  description: "Responder Service SQS Queue for st2 notifications"
+  type: "string"
+  required: true
+aws_access_key_id:
+  description: "AWS Access Key ID"
+  type: "string"
+  required: true
+  secret: false
+aws_secret_key:
+  description: "AWS Secret Key."
+  type: "string"
+  secret: true
+  required: true
+

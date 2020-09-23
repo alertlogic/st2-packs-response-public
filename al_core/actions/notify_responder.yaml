@@ -1,0 +1,13 @@
+---
+name: "notify_responder"
+runner_type: "python-script"
+description: "Send SQS Notificaiton to an responder sqs queue"
+enabled: true
+entry_point: "notify_responder.py"
+pack: "al_core"
+parameters:
+  data:
+    type: "object"
+    description: "Action/Workflow execution status"
+    required: true
+

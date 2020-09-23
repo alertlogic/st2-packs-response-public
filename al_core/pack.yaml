@@ -1,0 +1,14 @@
+---
+ref: al_core
+name : al_core
+description : Alert Logic Response Core Actions Pack
+keywords:
+  - alertlogic
+  - mdr
+version : 0.0.1
+author : Alert Logic, Inc.
+email : support@alertlogic.com
+contributors:
+  - Pavel Trakhtman <pavel@alertlogic.com>
+python_versions:
+  - "3"
