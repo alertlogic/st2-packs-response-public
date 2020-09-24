@@ -3,7 +3,7 @@ ref: eric_test
 name : eric_test
 description : Alert Logic MDR Response framework core functionality
 keywords:
-version: 0.0.3
+version: 0.0.4
 python_versions:
   - "3"
 author : Alert Logic, Inc.
