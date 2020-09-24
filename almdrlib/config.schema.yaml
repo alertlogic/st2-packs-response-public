@@ -1,0 +1,19 @@
+---
+access_key_id:
+  description: "The Alert Logic access key id."
+  type: "string"
+  secret: false
+  required: true
+
+secret_key:
+  description: "The Alert Logic secret key."
+  type: "string"
+  secret: true
+  required: true
+
+global_endpoint:
+  description: "The Alert Logic global endpint."
+  type: "string"
+  secret: false
+  required: false
+  default: "production"

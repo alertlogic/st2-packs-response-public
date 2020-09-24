@@ -1,0 +1,15 @@
+---
+ref: almdrlib
+name : almdrlib
+description : Alert Logic MDR actions using alertlogic-sdk-python
+keywords:
+  - security
+  - mdr
+  - almdrlib
+version : 0.0.1
+author : Alert Logic, Inc.
+email : support@alertlogic.com
+contributors:
+  - Pavel Trakhtman <pavel@alertlogic.com>
+python_versions:
+  - "3"
