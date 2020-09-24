@@ -1,0 +1,39 @@
+---
+name: "action"
+runner_type: "python-script"
+description: "Run any alertlogic-sdk-python action"
+enabled: true
+entry_point: "action.py"
+pack: "almdrlib"
+parameters:
+  service:
+    type: "string"
+    description: "Name of the Alert Logic service to execute an action for"
+    required: true
+  action_name:
+    type: "string"
+    description: "Name of the action to run"
+    required: true
+  credentials:
+    type: "object"
+    description: "Alert Logic Credentials Object"
+    required: false
+    properties:
+      access_key_id:
+        type: string
+        description: "Alert Logic Access Key ID"
+      secret_key:
+        type: string
+        description: "Alert Logic Secret"
+        secret: true
+      aims_token:
+        type: string
+        description: "Alert Logic AIMS Token"
+        secret: true
+      global_endpoint:
+        type: "string"
+        description: "Alert Logic Endpoint. production or integration"
+        default: "production"
+  params:
+    type: object
+    description: "Parameters for the action. See https://alertlogic-sdk-python.readthedocs.io/en/latest/"
